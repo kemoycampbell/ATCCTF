@@ -1,6 +1,6 @@
 [config]
 url = http://localhost:8000
-access_token = ctfd_016422f64ae77ccb577867575aa0267ee354a1d14b85aaf756accb4175caef80
+access_token = ctfd_bcd64af79c8ef6777ae883ac425d19652c9e9d30e9ee6281530b9bba3b843632
 
 [challenges]
 
