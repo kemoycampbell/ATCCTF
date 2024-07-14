@@ -8,11 +8,11 @@ type: standard
 flags:
 - ATC{N3v3r_put_username_and_password_html_source_c0d3}
 exposeService:
-  protocol: https://
+  protocol: http://
   internalPort: 5000
   publicPort: 5500
 tags:
 - source code
 state: visible
 version: '0.1'
-connection_info: httpsatc.hostjams.com:5500
+connection_info: http://localhost:5500

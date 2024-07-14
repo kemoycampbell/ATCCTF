@@ -8,11 +8,11 @@ type: standard
 flags:
 - ATC{c0mm@nd_injection_@re_Aw3some!}
 exposeService:
-  protocol: https://
+  protocol: http://
   internalPort: 5000
-  publicPort: 5000
+  publicPort: 7000
 tags:
 - injection
 state: visible
 version: '0.1'
-connection_info: httpsatc.hostjams.com:5000
+connection_info: http://localhost:7000
