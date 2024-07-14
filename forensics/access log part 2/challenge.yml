@@ -11,6 +11,8 @@ type: standard
 
 flags:
   - ATC{21}
+files:
+  - access.log
 
 tags:
   - access log
