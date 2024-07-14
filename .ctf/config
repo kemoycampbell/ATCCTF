@@ -1,6 +1,6 @@
 [config]
-url = http://localhost:8000
-access_token = ctfd_bcd64af79c8ef6777ae883ac425d19652c9e9d30e9ee6281530b9bba3b843632
+url = https://atc.hostjams.com/
+access_token = ctfd_80227816bbf4c1f66020394a7d552947d19a80517b91a73ecc53a573df68ebce
 
 [challenges]
 
