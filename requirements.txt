@@ -1,1 +1,5 @@
 python-decouple
+PyYAML
+ctfcli
+bs4
+requests

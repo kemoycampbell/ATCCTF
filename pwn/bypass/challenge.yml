@@ -17,4 +17,4 @@ tags:
 - remote access
 state: visible
 version: '0.1'
-connection_info: nc localhost 12345
+connection_info: nc http://localhost 12345

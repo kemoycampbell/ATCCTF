@@ -69,10 +69,16 @@
             let password = document.getElementById('password').value;
 
             //convert to the appropriate cipher base64
+            //decoding the base64 username and password
             username = btoa(username);
             password = btoa(password);
 
+            //if the username and password match the secret username and password then we will take
+            //them to the right location by adding /reveal to the domain. For example
+            //if the domain is http://mysecret.com then the new location will be http://mysecret.com/reveal
             if(secret_password === password && username === secret_username) {
+                //for now create a localstorage item called "authenticated" and set it to true. This will be used to check if the user is authenticated or not
+                localStorage.setItem("authenticated_atc", true);
                 window.location.replace("{{ url_for('reveal') }}");
             } else {
                 alert('Incorrect username or password');
